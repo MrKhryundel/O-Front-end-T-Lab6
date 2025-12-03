@@ -1,0 +1,47 @@
+/* Стиль всієї сторінки */
+body {
+    margin: 0;
+    background-color: #2e2e2e; /* Темний фон як у прикладі */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Заголовок */
+.title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Кнопка завантаження */
+#loadBtn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 25px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Контейнер з усіма картками */
+#users {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Одна картка користувача */
+.user-card {
+    width: 260px;
+    background-color: #1f1f1f; /* Темний блок як у прикладі */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Фото користувача */
+.user-card img {
+    width: 100%;
+    border-radius: 4px;
+}
