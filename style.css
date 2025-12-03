@@ -6,12 +6,6 @@ body {
     color: white;
 }
 
-/* Заголовок */
-.title {
-    text-align: center;
-    margin-top: 10px;
-}
-
 /* Кнопка завантаження */
 #loadBtn {
     display: block;
@@ -44,4 +38,5 @@ body {
 .user-card img {
     width: 100%;
     border-radius: 4px;
+
 }
